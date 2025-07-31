@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-tutor</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  
+    <link rel="stylesheet" href="./assests/navbar.css">
+
+</head>
+
+<body>
+    <header>
+        <!-- Top Navbar -->
+        <nav class="navbar navbar-expand-lg top-navbar border-bottom py-2">
+            <div class="container d-flex justify-content-between align-items-center">
+                <!-- Left Links -->
+                <ul class="navbar-nav flex-row gap-3">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Courses</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Become an Instructor</a></li>
+                </ul>
+
+                <!-- Right Dropdowns -->
+                <div class="d-flex gap-4">
+                    <div class="dropdown-btn">
+                        <button class="btn btn-sm dropdown-toggle"
+                            data-bs-toggle="dropdown">USD</button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">USD</a></li>
+                            <li><a class="dropdown-item" href="#">ILS</a></li>
+                            <li><a class="dropdown-item" href="#">EUR</a></li>
+                        </ul>
+                    </div>
+                    <div class="dropdown-btn">
+                        <button class="btn btn-sm  dropdown-toggle"
+                            data-bs-toggle="dropdown">EN</button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">EN</a></li>
+                            <li><a class="dropdown-item" href="#">AR</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Bottom Navbar -->
+        <nav class="navbar navbar-expand-lg bottom-navbar py-3">
+            <div class="container d-flex justify-content-between align-items-center">
+                <!-- Left Side -->
+                <div class="d-flex align-items-center flex-grow-1">
+                    <!-- Logo -->
+                    <a class="navbar-brand me-4 d-flex align-items-center" href="#">
+                        <img src="./assests/logo/LOGO.svg" alt="Logo" height="40">
+                        
+                    </a>
+
+                    <!-- Browse Dropdown -->
+                    <div class="dropdown me-4">
+                        <button class="btn dropdown-toggle Browse-btn" data-bs-toggle="dropdown">Browse</button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Design</a></li>
+                            <li><a class="dropdown-item" href="#">Personal Development</a></li>
+                            <li><a class="dropdown-item" href="#">IT & Software</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Search -->
+                    <form class="d-flex" role="search">
+                        <div class="input-group">
+                            <button class="input-group-text bg-white border-end-0 search-btn"><img src="./assests/images/icons/MagnifyingGlass.svg"></button>
+                            <input class="form-control border-start-0 search-form" type="search" placeholder="What do you want learn..."
+                                aria-label="Search">
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Right Side -->
+                <div class="d-flex align-items-center gap-3">
+                    <!-- Icons -->
+                    <div class="icon-buttons d-flex gap-3">
+                        <button class="icon-btn"><img src="./assests/images/icons/Bell.svg"
+                                alt="Notifications" /></button>
+                        <button class="icon-btn"><img src="./assests/images/icons/Heart.svg" alt="Favorites" /></button>
+                        <button class="icon-btn"><img src="./assests/images/icons/ShoppingCartSimple.svg"
+                                alt="Cart" /></button>
+                    </div>
+
+                    <!-- Buttons -->
+                    <div class="d-flex gap-2 ms-3">
+                        <button class="btn new-account-btn">Create Account</button>
+                        <button class="btn signIn-btn">Sign In</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+</body>
+
+</html>

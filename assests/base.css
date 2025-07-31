@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+.text-underline{
+    text-decoration: underline;
+}
+li{
+    list-style-type: none;
+}
+
+h1 h2 h3 h4 h5 h6{
+    font-family: var(--subFont);
+}
+:root{
+    --mainColor: #FF6636;
+    --subColor: #8A8FB9;
+    --header-one-color:#1D2026;
+    --parghraph-color: #4E5566;
+    --mainFont: "Lato", sans-serif;
+    --subFont: "Josefin Sans", sans-serif;
+
+}
+.mainfont{
+    font-family: var(--mainFont);
+}
+
+.subfont{
+    font-family: var(--subFont);
+}
+.mainColor{
+    color: var(--mainColor);
+}
+
+.subcolor{
+    color: var(--subColor);
+}

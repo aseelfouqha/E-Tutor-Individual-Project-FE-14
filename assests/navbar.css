@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+}
+.container{
+    margin: 0 15px;
+}
+/* Top Navbar */
+.top-navbar {
+  background-color: #1D2026;
+  font-size: 0.9rem;
+  color:#8C94A3;
+}
+.nav-link{
+    color: #8C94A3;
+}
+
+.nav-link:hover{
+    color:#fff;
+    box-shadow: 0 2px 0 rgba(255, 102, 54, 1);
+    transition: 0.5s ease-in-out;
+}
+
+.btn{
+    color: #6E7485;
+}
+
+.btn:hover{
+    color:#fff;
+    transition: 0.5s ease-in-out;
+}
+
+/* Bottom Navbar */
+.bottom-navbar {
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+.Browse-btn{
+    color: #1D2026;
+    border: 1px solid #E9EAF0 ;
+    border-radius: 0;
+}
+.Browse-btn:hover{
+    color: #1D2026;
+    box-shadow: 0 0 1 rgba(0, 0, 0, 0.05);
+    transition: 0.5s ease-in;
+}
+.input-group{
+    border: 1px solid #E9EAF0;
+}
+.input-group:hover{
+    box-shadow: 0 0 1 rgba(0, 0, 0, 0.05);
+    transition: 0.5s ease-in-out;
+}
+.search-btn{
+    border:none;
+}
+.search-form{
+    border: none;
+}
+
+/* Icon buttons */
+.icon-btn {
+  background: transparent;
+  border: none;
+  padding: 0.5rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.icon-btn:hover {
+  transform: scale(1.1);
+}
+
+
+.new-account-btn{
+    background-color: #FFEEE8;
+    color: #FF6636 ;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.025);
+    border-radius: 0;
+    
+}
+
+.new-account-btn:hover{
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+    color: #FF6636;
+    
+}
+
+.signIn-btn{
+    border-radius: 0;
+    color: #fff;
+    background-color: #FF6636;
+    margin-left: 10px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.025);
+}
+
+.signIn-btn:hover{
+    box-shadow: 0 4px 4px rgba(0, 0,0, 0.5);
+    transition: 0.5s ease-in-out;
+}
